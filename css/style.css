@@ -1,3 +1,39 @@
 body {
   background-color: hsl(212, 45%, 89%);
+  max-width: 1440px;
+  max-height: 800px;
+  margin-left: 40%;
+  margin-top: 12%;
+}
+
+.whiteCard {
+  background-color: white;
+  width: 320px;
+  height: 497px;
+  border-radius: 5%;
+}
+
+.whiteCard img {
+  margin: 16px;
+  max-width: 288px;
+  max-height: 288px;
+  border-radius: 5%;
+}
+
+.textSpace {
+  max-width: 288px;
+  max-height: 129px;
+  margin-top: 0px;
+  margin-left: 16px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+}
+.textSpace h2 {
+  color: #1f314f;
+  font-weight: 700px;
+}
+.textSpace p {
+  color: #7d889e;
+  font-weight: 400;
 }
